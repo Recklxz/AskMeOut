@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: pink;
+}
+
+#img {
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#buttonContainer {
+    display: flex;
+}
+button{
+    background-color: tomato;
+    padding: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+} 
+#bt1 {
+    background-color: tomato;
+    margin-right: 10px;
+}
+
+#bt2 {
+    background-color: lightblue; /* Change the color for the second button */
+}
